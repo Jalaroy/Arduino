@@ -1,6 +1,6 @@
 ### Prosjekt:
 
-Ideen er automatisert plantevanningssystem som bruker sensorer for å overvåke jordfuktighet og vanne plantene automatisk etter behov. I tillegg ønsker jeg inkludere sensorer for å identifisere potensielle faktorer som kan påvirke vannforbruket, for eksempel lysnivåer og oksygen- eller karbondioksidmålinger, temperatur osv.
+Jeg ønsker å lage ett automatisert plantevanningssystem som bruker sensorer for å overvåke jordfuktighet og vanne plantene automatisk etter behov. I tillegg ønsker jeg inkludere sensorer for å identifisere potensielle faktorer som kan påvirke vannforbruket, for eksempel lysnivåer og oksygen- eller karbondioksidmålinger, temperatur osv.
 
 ## Nødvendige ressurser:
 
