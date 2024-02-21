@@ -6,9 +6,7 @@ Jeg ønsker å lage ett automatisert plantevanningssystem som bruker sensorer fo
 
 - **Sensor for jordfuktighet:** Måler jordfuktighetsnivået.
  
-- **Vannpumpe eller magnetventil:** Styrer vanntilførselen til plantene.
-
-- **Strømkilde:** Passende strømforsyning til Arduino-kortet, sensorer og aktuatorer.
+- **Vannpumpe:** Styrer vanntilførselen til plantene.
 
 - **Vannreservoar:** Beholder for vannet som skal brukes til å vanne plantene.
 
@@ -20,7 +18,7 @@ Jeg ønsker å lage ett automatisert plantevanningssystem som bruker sensorer fo
 
 - **Oksygen- eller karbondioksidmåler:** Overvåker luftens sammensetning for å justere vanningen.
 
-
+## Potensielle ressurser
 
 ## Lenker for ressurser
 
