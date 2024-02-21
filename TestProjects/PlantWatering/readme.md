@@ -14,9 +14,9 @@ Jeg ønsker å lage ett automatisert plantevanningssystem som bruker sensorer fo
 
 ## Ekstra ressurser:
  
-- **Lysensor:** Registrerer lysnivåer for å tilpasse vanningen til plantenes behov.
+- **Lysensor:** For å sammenligne potensielle faktorer
 
-- **Oksygen- eller karbondioksidmåler:** Overvåker luftens sammensetning for å justere vanningen.
+- **Oksygen- eller karbondioksidmåler:** For å sammenligne potensielle faktorer
 
 ## Potensielle ressurser
 
