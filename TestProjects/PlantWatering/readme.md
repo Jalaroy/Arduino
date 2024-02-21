@@ -10,7 +10,7 @@ Jeg ønsker å lage ett automatisert plantevanningssystem som bruker sensorer fo
 
 - **Vannreservoar:** Beholder for vannet som skal brukes til å vanne plantene.
 
-- **Slanger og koblinger:** For å koble vannbeholderen til plantene, og nødvendig utstyr som sensor på planten.
+- **Slanger og kbaler:** For å koble vannbeholderen til plantene, og nødvendig utstyr som sensor på planten.
 
 ## Ekstra ressurser:
  
