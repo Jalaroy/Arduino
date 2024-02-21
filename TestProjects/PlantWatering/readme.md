@@ -19,3 +19,10 @@ Jeg ønsker å lage ett automatisert plantevanningssystem som bruker sensorer fo
 - **Lysensor:** Registrerer lysnivåer for å tilpasse vanningen til plantenes behov.
 
 - **Oksygen- eller karbondioksidmåler:** Overvåker luftens sammensetning for å justere vanningen.
+
+
+
+## Lenker for ressurser
+
+### Jordfuktighet sensor
+- https://www.labdidakt.no/pasco-datalogging/pasco-sensorer-traadlose/traadlos-jordfuktighet-sensor     (Bittelitt dyr)
