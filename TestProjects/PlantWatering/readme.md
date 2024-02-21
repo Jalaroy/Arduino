@@ -23,4 +23,4 @@ Jeg ønsker å lage ett automatisert plantevanningssystem som bruker sensorer fo
 ## Lenker for ressurser
 
 ### Jordfuktighet sensor
-- https://www.labdidakt.no/pasco-datalogging/pasco-sensorer-traadlose/traadlos-jordfuktighet-sensor     (Bittelitt dyr)
+- https://www.labdidakt.no/pasco-datalogging/pasco-sensorer-traadlose/traadlos-jordfuktighet-sensor     (Bittelitt dyr) Ment som kødd!
