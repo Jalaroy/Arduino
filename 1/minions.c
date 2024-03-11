@@ -7,7 +7,7 @@ const char *MC_password = "DidntExpectThisPassword?";
 ESP8266WebServer server(80);
 
 void handleRoot() {
- String message = "Hello from Node. Random Number I choose you!: " + String(random(1000));
+ String message = "Hello WORLD. Random Number I choose you!: " + String(random(1000));
  server.send(200, "text/html", message);
 }
 
