@@ -6,7 +6,6 @@ const char *password = "12345678?";
 
 ESP8266WebServer server(80);
 
-// Define the pins where the sensor is connected
 #define TRIGGER_PIN D1
 #define ECHO_PIN D2
 
@@ -24,13 +23,12 @@ void handleRoot() {
  
  String message = "Distance: " + String(distance) + " cm";
  server.send(200, "text/html", message);
- Serial.println(message); // Print the distance to the serial port
+ Serial.println(message); 
 }
 
 void setup() {
  Serial.begin(115200);
 
- // Set ESP8266 as an Access Point
  WiFi.mode(WIFI_AP);
  WiFi.softAP(ssid, password);
 
@@ -38,20 +36,17 @@ void setup() {
  Serial.print("IP Address: ");
  Serial.println(WiFi.softAPIP());
 
- // Define the server routes
  server.on("/", HTTP_GET, handleRoot);
 
- // Start the server
  server.begin();
 
- // Define sensor pins as output and input
  pinMode(TRIGGER_PIN, OUTPUT);
  pinMode(ECHO_PIN, INPUT);
 }
 
 void loop() {
  server.handleClient();
- delay(1000); // Wait for 1 second
+ delay(1000); 
 }
 
 /* The place for guides:
