@@ -9,7 +9,6 @@ ESP8266WebServer server(80);
 #define TRIGGER_PIN D1
 #define ECHO_PIN D2
 
-// Dynamic array to store distances and variables for tracking measurements
 int *distances;
 int measurementCount = 0;
 
@@ -23,29 +22,26 @@ void handleRoot() {
   long duration = pulseIn(ECHO_PIN, HIGH);
   int distance = (duration / 2) / 29.1;
 
-  // Increase array size dynamically to store new distance measurement
   int *newDistances = (int *)realloc(distances, (measurementCount + 1) * sizeof(int));
   if (newDistances != NULL) {
     distances = newDistances;
-    distances[measurementCount] = distance; // Store the distance
-    measurementCount++;                    // Increment the count
+    distances[measurementCount] = distance; 
+    measurementCount++;                   
   } else {
     Serial.println("Memory reallocation failed!");
   }
 
-  // Create a CSV formatted string of distances
   String csvData = "";
   for (int i = 0; i < measurementCount; i++) {
     csvData += String(i + 1) + "s | " + String(distances[i]) + "cm\n";
   }
   server.send(200, "text/plain", csvData);
-  Serial.print(csvData); // Write the distances to the serial port
+  Serial.print(csvData); 
 }
 
 void setup() {
   Serial.begin(115200);
 
-  // Set ESP8266 as an Access Point
   WiFi.mode(WIFI_AP);
   WiFi.softAP(ssid, password);
 
@@ -53,13 +49,10 @@ void setup() {
   Serial.print("IP Address: ");
   Serial.println(WiFi.softAPIP());
 
-  // Define the server routes
   server.on("/", HTTP_GET, handleRoot);
 
-  // Start the server
   server.begin();
 
-  // Define sensor pins as output and input
   pinMode(TRIGGER_PIN, OUTPUT);
   pinMode(ECHO_PIN, INPUT);
 }
