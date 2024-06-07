@@ -1,15 +1,15 @@
 ## Rapport for Jordfuktighetsmåling og Automatisk Vanning
 
 ### Innledning
-Målet med dette prosjektet er å undersøke jordens fuktighetsnivå og automatisere vanningsprosessen når fuktighetsnivået faller under et bestemt terskelnivå. Hypotesen er at ved å bruke en mikrokontroller sammen med en jordfuktighetssensor, kan vi opprettholde optimale vekstforhold for planter ved automatisk vanning når jorden blir for tørr.
+Målet med dette prosjektet er å undersøke jordens fuktighetsnivå og automatisere vanningsprosessen når fuktighetsnivået faller under et bestemt terskelnivå. Hypotesen er at ved å bruke en mikrokontroller sammen med en jordfuktighetssensor, kan man opprettholde optimale vekstforhold for planter ved automatisk vanning når jorden blir for tørr.
 
 ### Fremgangsmåte
 #### Komponenter
 | Komponent              | Beskrivelse                        |
 |------------------------|------------------------------------|
-| Mikrokontroller        | Arduino Uno                        |
+| Mikrokontroller        | Firebeetle                         |
 | Jordfuktighetssensor   | Analog sensor                      |
-| Relé                    | 5V relé for pumpe                  |
+| Relé                   | 5V relé for pumpe                  |
 | Vannpumpe              | 5V vannpumpe                       |
 | Eksternt batteri       | 9V batteri                         |
 | Diverse ledninger      | Koblingsledninger                  |
